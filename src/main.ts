@@ -8,7 +8,7 @@ async function bootstrap() {
 
   // CORS options
   const corsOptions = {
-    origin: ['http://localhost:4200', 'https://dts-ui.vercel.app'],
+    origin: ['http://localhost:4200', 'https://digitalcard-gray.vercel.app'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
